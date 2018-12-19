@@ -1,0 +1,37 @@
+{
+  "name": "grunt-template-html",
+  "version": "0.0.1",
+  "description": "Grunt 를 사용하기 위한 예제 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "그런트",
+    "grunt"
+  ],
+  "make": {
+    "publisher": "Ho, Jong-Mun",
+    "email": "hjm01@naver.com",
+    "blog": "http://demun.tistory.com"
+  },
+  "license": {
+    "type": "CC BY-ND",
+    "url": "http://creativecommons.org/licenses/by/2.0/kr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demun/grunt-template-html"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-includes": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*"
+  }
+}
